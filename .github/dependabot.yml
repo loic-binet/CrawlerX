@@ -12,6 +12,9 @@ updates:
     # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "daily"
+    labels:
+      - "npm"
+      - "dependencies"
 
   # Enable version updates for Docker
   - package-ecosystem: "docker"
@@ -20,6 +23,9 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "daily"
+    labels:
+      - "docker"
+      - "dependencies"
 
   # Enable version updates for Docker
   - package-ecosystem: "python"
@@ -28,5 +34,8 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "daily"
+    labels:
+      - "python"
+      - "dependencies"
 
 
