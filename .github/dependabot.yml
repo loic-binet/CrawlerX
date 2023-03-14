@@ -28,3 +28,11 @@ updates:
     labels:
       - "pip"
       - "dependencies"
+      
+  - package-ecosystem: "pip3"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "pip3"
+      - "dependencies"
