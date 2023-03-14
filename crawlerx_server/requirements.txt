@@ -17,7 +17,7 @@ constantly==15.1.0
 cryptography==39.0.1
 cssselect==1.1.0
 distlib==0.3.0
-Django==3.0.5
+Django==3.1.14
 django-cors-headers==3.4.0
 django-rest-framework-mongoengine==3.4.1
 ecdsa==0.15
