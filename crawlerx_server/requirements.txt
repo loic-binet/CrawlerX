@@ -64,7 +64,7 @@ sqlparse==0.2.4
 starlette==0.25.0
 Twisted==20.3.0
 tzlocal==4.2
-urllib3==1.25.9
+urllib3==1.26.5
 uvicorn==0.11.5
 uvloop==0.14.0
 vine==5.0.0
